@@ -1,6 +1,6 @@
-# Scraper for Interview Stories, in Selenium with Python, PyTest and Firefox
+# Scraper for Interview Stories, in Selenium with Python, pytest and Firefox
 
-Scrapes the interview stories for a specified company, if that company is found on a popular company review website (this website will not be named here). The target website does not have a public API, so this python code collects interviews by using selenium to automate the process from the front-end UI. The target website has anti-bot measures in place including measuring how fast a user moves through the site, and the script has a lot of sleep statements to simulate how a real-end user would behave. Firefox is used because the target website detects and blocks chrome when chrome is used with selenium. The scraper is wrapped in PyTest (a testing framework) - although with some careful study the script could be refactored to not use it. 
+Scrapes the interview stories for a specified company, if that company is found on a popular company review website (this website will not be named here). The target website does not have a public API, so this python code collects interviews by using selenium to automate the process from the front-end UI. The target website has anti-bot measures in place including measuring how fast a user moves through the site, and the script has a lot of sleep statements to simulate how a real-end user would behave. Firefox is used because the target website detects and blocks chrome when chrome is used with selenium. The scraper is wrapped in pytest (a testing framework) - although with some careful study the script could be refactored to not use it. 
 
 ## Getting Started
 
@@ -14,7 +14,7 @@ This script only collects interviews. If you want to scrape the other areas of t
 
 * Python 3
 * Selenium
-* PyTest
+* pytest
 * Firefox
 
 ## Running
