@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files #
+###################
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Other #
+###################
+geckodriver.log
+scrape_results.txt
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project Specific file #
+######################
+config_file.py
+
+# Unit test / coverage reports
+######################
+.cache
+
