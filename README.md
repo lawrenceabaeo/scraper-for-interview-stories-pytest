@@ -6,7 +6,7 @@ Scrapes the interview stories for a specified company, if that company is found 
 
 Check the prerequisites. Download a copy of the code, then modify it for your local setup and other needs:
 
-* Create a file called 'configurations\_file.py' and add in the details. Use the 'example\_configurations\_file.py' in the source code as a guide.
+* Create a file called 'config\_file.py' and add in the details. Use the 'example\_config\_file.py' in the source code as a guide.
 
 This script only collects interviews. If you want to scrape the other areas of the target website or scrape another website altogether, it may be easier to start a new project and just borrow pieces from here that might help your needs. 
 
