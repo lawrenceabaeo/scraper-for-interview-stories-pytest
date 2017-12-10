@@ -12,10 +12,19 @@ This script only collects interviews. If you want to scrape the other areas of t
 
 ### Prerequisites
 
-* Python 3
-* Selenium
-* pytest
-* Firefox
+1. Python 2.7+
+    * For help on downloading and installing python, start here: [python.org 'Downloading Python'](https://wiki.python.org/moin/BeginnersGuide/Download)
+2. Selenium Webdriver for Python
+    * Type this command:
+        * `pip install selenium`
+    * For more help check here: [Installation for Selenium with Python](http://selenium-python.readthedocs.io/installation.html)
+3. pytest
+    * Type this command:
+        * `pip install -U pytest`
+    * For more help check here: [[pytest] Installation and Getting Started](https://docs.pytest.org/en/latest/getting-started.html)
+4. Firefox and the geckodriver
+    * [Click here to download Firefox](https://www.mozilla.org/en-US/firefox/)
+    * [Click here to download geckodriver for your system](https://github.com/mozilla/geckodriver/releases) - look for your OS in the filename, like geckodr....1-win64.zip
 
 ## Running
 
